@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>AudioPM || Tarjeta</title>
+</head>
+<body>
+    <header>
+    <a href="#" class="logo">
+        <span>Audio</span>PM
+    </a>
+    </header>
+    <section class="efectivo" id="efectivo">
+        <h1 class="heading">Forma de Pago Tarjeta</h1>
+        <h3 class="click">Rellene los campos</h3>
+        <form action="">
+        <div class="input-general">
+            <input type="text" required>
+            <label for="">Nombre</label>
+        </div>
+        <div class="input-general">
+            <input type="text" required>
+            <label for="">Apellido</label>
+        </div>
+        <div class="input-general">
+            <input type="number" required>
+            <label for="">Telefono</label>
+        </div>
+        <div class="input-general">
+            <input type="number" required>
+            <label for="">Codigo Postal</label>
+        </div>
+        <div class="input-general">
+            <input type="text" required>
+            <label for="">Provincia</label>
+        </div>
+        <div class="input-general">
+            <input type="text" required>
+            <label for="">Localidad</label>
+        </div>
+        <a href="#card" class="btn">Continuar</a>
+        <a class="btn" href="pago.html">Volver</a>
+        </form>
+    </section>
+
+
+
+    <section id="card" class="card">
+        <h1 class="heading">Complete los datos</h1>
+        <div class="cuotas">
+            <form action="">
+            <div class="cbx">
+                <h3>Cuotas sin interes</h3>
+                <select name="" id="select-cuotas">
+                    <option id="cuota3" value="3">3</option>
+                    <option id="cuota6" value="6">6</option>
+                    <option id="cuota9" value="9">9</option>
+                    <option id="cuota12" value="12">12</option>
+                </select>
+            </div>
+            <div class="cbx">
+                <h3>Total a pagar:</h3>
+                <label for="" class="total"></label>
+            </div>
+        </form>
+        </div>
+        
+        <form action="">
+        <div class="input-card inputCard">
+            <label for="">Numero Tarjeta</label>
+            <input type="text" id="name" required>
+        </div>
+
+        <div class="input-card">
+            <label for="">Nombre</label>
+            <input type="text">
+        </div>
+
+        <div class="input-card">
+            <label for="">Fecha de Expiración</label>
+            <select name="" id="">
+                <option value="">2023</option>
+                <option value="">2024</option>
+                <option value="">2025</option>
+                <option value="">2026</option>
+                <option value="">2027</option>
+                <option value="">2028</option>
+            </select>
+        </div>
+        <div class="input-card">
+            <label for="">CCV</label>
+            <input type="text" id="name" required
+       minlength="2" maxlength="3" size="10">
+        </div>
+        <a href="" class="btn">Continuar</a>
+    </form>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
