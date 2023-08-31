@@ -1,4 +1,7 @@
 Ofrecemos varios servicos entre ellos:
-Bronce: Limitacion 1 saervicio
-plata
-Gold
+Bronce: Limitacion 1 saervicio - el clinente podra tener la opcion para sacar turnos pero no le llegara el mensaje de confirmacion ni el recordatorio  
+
+plata: Limitacion 2 servicios - le llegaran norificaciones  de recordatorio al cliente , tabla para la cantidad de servicios vendidos,
+
+Gold: Sin Limitacion de servicios  - le llegaran norificaciones  de recordatorio al cliente, tabla para la cantidad de servicios vendidos,  tendra tabla sobre ingresos y egresos y demas herramientas para el cliente 
+
